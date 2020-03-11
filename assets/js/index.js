@@ -7,4 +7,15 @@ $("nav a").click(function (e) {
 	$('html, body').animate({
 		scrollTop: targetOffset - menuHeight
 	}, 1000);
-})(JQuery);
+});
+
+// opener menu
+window.onload = function () {
+    document.querySelector(".menu-opener").addEventListener("click", function () {
+        if (document.querySelector(".menu nav").style.display == "flex") {
+            document.querySelector(".menu nav").style.display = "none"
+        } else {
+            document.querySelector(".menu nav").style.display = "flex"
+        }
+    });
+};

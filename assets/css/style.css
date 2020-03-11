@@ -35,6 +35,10 @@ header {
     background-color: #B28756;
 }
 
+.menu-opener {
+    display: none;
+}
+
 .menu {
     flex: 1;
     display: flex;
@@ -1033,4 +1037,260 @@ footer .area-geral-social {
     flex: 1;
     font-size: 14px;
     font-weight: 600;
+}
+
+@media (min-width: 450px) and (max-width: 800px) {
+    .logo {
+        margin-left: 30px;
+    }
+    .menu-opener {
+        display: block;
+        width: 45px;
+        margin-right: 30px;
+    }
+    nav {
+        display: none;
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 70vw;
+        height: calc(100vh - 100px);
+        top: 100px;
+        right: 0;
+    }
+    .menu ul {
+        flex-direction: column;
+    }
+    .menu li a {
+        font-weight: bold;
+        height: 80px;
+        font-size: 27px;
+        margin-left: 50px;
+        border: 0;
+    }
+    .menu li a:hover, .menu .active a {
+        border: 0;
+        color: #B28756;
+    }
+    .section-aboutus {
+        flex-direction: column;
+    }
+    .section-aboutus--left {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+    .section-aboutus--right {
+        width: auto;
+    }
+    .section-services {
+        flex-wrap: wrap;
+    }
+    .section-service {
+        min-width: 50%;
+        margin-bottom: 30px;
+    }
+    .section-service:first-child {
+        border-left: 0;
+    }
+    .companies-area {
+        flex-wrap: wrap;
+    }
+    .section-team {
+        max-width: 580px;
+    }
+    .section-prices--table {
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .section-prices {
+        flex-direction: column;
+    }
+    .section-premium--area {
+        flex-direction: column;
+    }
+    .imgBook {
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .section-facts--area {
+        flex-direction: column;
+    }
+    .section-map {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .section-map--info {
+        margin: auto;
+    }
+    .section-map--info-item {
+        margin-bottom: 20px;
+    }
+    .section-map--info-item:last-child {
+        margin-bottom: 0;
+    }
+    footer .areageral {
+        flex-direction: column;
+    }
+    footer .area-social {
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+    footer p {
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 450px) {
+    .logo {
+        margin-left: 30px;
+    }
+    .menu-opener {
+        display: block;
+        width: 45px;
+        margin-right: 30px;
+    }
+    nav {
+        display: none;
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 80vw;
+        height: calc(100vh - 100px);
+        top: 100px;
+        right: 0;
+    }
+    .menu ul {
+        flex-direction: column;
+    }
+    .menu li a {
+        font-weight: bold;
+        height: 60px;
+        font-size: 20px;
+        margin-left: 30px;
+        border: 0;
+    }
+    .menu li a:hover, .menu .active a {
+        border: 0;
+        color: #B28756;
+    }
+    .banner h1 {
+        font-size: 30px;
+    }
+    .banner h2 {
+        font-size: 17px;
+    }
+    .section-aboutus {
+        flex-direction: column;
+    }
+    .section-aboutus--left {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+    .section-aboutus--right {
+        width: auto;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .section-aboutus--right img {
+        width: 100%;
+    }
+    .section-services {
+        flex-wrap: wrap;
+    }
+    .section-service {
+        min-width: 100%;
+        margin-bottom: 30px;
+    }
+    .section-service:first-child {
+        border-left: 0;
+    }
+    .section-projects--filters {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .section-projects--photo {
+        width: 320px;
+    }
+    .section-projects--photoarea {
+        width: 300px;
+        height: 190px;
+    }
+    .companies-area {
+        flex-wrap: wrap;
+    }
+    .section-team {
+        max-width: 280px;
+    }
+    .section-prices--table {
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .section-prices {
+        flex-direction: column;
+    }
+    .section-premium--area {
+        flex-direction: column;
+    }
+    .section-premium {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .imgBook {
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .social-area {
+        flex-direction: column;
+    }
+    .section-facts--area {
+        flex-direction: column;
+    }
+    .social-text {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .form {
+        display: flex;
+    }
+    .form-area1 input {
+        margin-bottom: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+        width: 320px;
+    }
+    .form-area1-collumn input {
+        width: 320px;
+    }
+    .form-message textarea {
+        width: 320px;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .form .buttonsend {
+        display: block;
+    }
+    .section-map {
+        padding: 0;
+        padding-bottom: 250px;
+    }
+    .section-map--info {
+        width: 100%;
+    }
+    .section-map--info-item:last-child {
+        margin-bottom: 0;
+    }
+    footer .areageral {
+        flex-direction: column;
+    }
+    footer .area-social {
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+    footer p {
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
 }
