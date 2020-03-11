@@ -636,7 +636,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 55px;
+    margin-bottom: 20px;
 }
 
 .section-premium--desc-title {
@@ -690,7 +690,7 @@ header {
     display: flex;
     justify-content: center;
     width: 100vw;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .point a {
@@ -703,4 +703,334 @@ header {
     padding: 17px 52px;
     border-radius: 25px;
     text-transform: uppercase;
+}
+
+.section-facts--area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 880px;
+    margin: auto;
+}
+
+.area1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.area1 .area1-number {
+    font-size: 28px;
+    font-weight: 700;
+    color: #B28756;
+}
+
+.area1 .area1-line {
+    width: 20px;
+    height: 4px;
+    background-color: #7E7E7E;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.area1 .area1-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.area1 .area1-desc {
+    color: #7E7E7E;
+    font-size: 10px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.area1 .area1-descphotos {
+    color: #7E7E7E;
+    font-size: 10px;
+    margin-top: 15px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.section-social {
+    background-color: #FFF;
+    border-bottom: 1px solid #CFCFCF;
+    height: auto;
+}
+
+.social-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.social-area .areaimg {
+    width: 40px;
+    height: 40px;
+    background-color: #33c6f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-left: 35px;
+}
+
+.areaimg.linkedin {
+    background-color: #127db5;
+}
+
+.areaimg.facebook {
+    background-color: #336296;
+}
+
+.areaimg.googleplus {
+    background-color: #e84139;
+}
+
+.areaimg.pinterest {
+    background-color: #b71c2a;
+}
+
+.social-area .social-text {
+    margin-right: 15px;
+    margin-left: 20px;
+    color: #AEAEAE;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.social-text-number {
+    font-size: 12px;
+    font-weight: 700;
+    color: #AEAEAE;
+}
+
+.form-area1 input {
+    border: 0;
+    background-color: #EDEDED;
+    border-bottom: 2px solid #AEAEAE;
+    width: 255px;
+    padding-bottom: 10px;
+    margin-right: 35px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-area1 input::placeholder {
+    color: #AEAEAE;
+    text-transform: uppercase;
+}
+
+.form input {
+    border: 0;
+    background-color: #EDEDED;
+    border-bottom: 2px solid #AEAEAE;
+    width: 255px;
+    padding-bottom: 10px;
+    margin-right: 35px;
+    outline: 0;
+}
+
+.form input::placeholder {
+    color: #AEAEAE;
+    text-transform: uppercase;
+}
+
+.form-area1-collumn {
+    margin-top: 30px;
+}
+
+.form-area1-collumn input {
+    width: 545px;
+}
+
+.form-message {
+    margin-top: 50px;
+}
+
+.form textarea {
+    height: 30px;
+    width: 545px;
+    border: 0;
+    background-color: #EDEDED;
+    border-bottom: 2px solid #AEAEAE;
+    outline: 0;
+    resize: none;
+}
+
+.form textarea::placeholder {
+    color: #AEAEAE;
+    text-transform: uppercase;
+}
+
+.form .buttonsend {
+    display: block;
+    background-color: #B28756;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 17px 52px;
+    margin-top: 48px;
+    border-radius: 25px;
+    text-transform: uppercase;
+}
+
+.section-map {
+    background-image: url('../images/complements/mapa.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.section-map--area {
+    width: 100vw;
+    max-width: 1140px;
+    margin: auto;
+}
+
+.section-map--info {
+    width: 50%;
+    padding: 30px;
+    background-color: #FFF;
+    color: #000;
+}
+
+.section-map--info-item {
+    display: flex;
+    align-items: center;
+    color: #AEAEAE;
+    margin-bottom: 10px;
+}
+
+.section-map--info-item-img {
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: #AEAEAE;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+
+.section-map--info-item-img img {
+    width: 15px;
+    height: auto;
+}
+
+footer {
+    background-color: #000;
+    width: 100%;
+}
+
+footer .areageral {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    max-width: 1140px;
+    margin: auto;
+}
+
+footer .area-social {
+    display: flex;
+    flex: 1;
+}
+
+footer .area-social-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: #373737;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+footer .area-social-img:hover {
+    background-color: #B28756;
+    cursor: pointer;
+}
+
+footer .area-desc {
+    flex: 1;
+    color: #373737;
+    margin-right: 20px;
+    line-height: 20px;
+}
+
+footer .area-sendemail {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .area-boxemail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 200px;
+    background-color: #373737;
+    border-radius: 5px;
+}
+
+footer .area-boxemail input {
+    border: 0;
+    border-bottom: 2px solid #AEAEAE;
+    outline: 0;
+    background-color: #373737;
+    width: 220px;
+    color: #AEAEAE;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+footer .area-boxemail input::placeholder {
+    color: #AEAEAE;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+footer .area-boxemail a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-decoration: none;
+    background-color: #B28756;
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 25px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+footer .area-geral-social {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    flex: 1;
+    font-size: 14px;
+    font-weight: 600;
 }

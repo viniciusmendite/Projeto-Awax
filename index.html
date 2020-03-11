@@ -23,7 +23,7 @@
             <div class="menu">
                 <nav>
                     <ul>
-                        <li class="active"><a href="">Home</a></li>
+                        <li><a href="">Home</a></li>
                         <li><a href="#about">About Us</a></li>
                         <li><a href="#services">Services</a></li>
                         <li><a href="#projects">Our Projects</a></li>
@@ -68,14 +68,15 @@
             </div>
 
             <div class="sliders-pointers">
-                <div class="pointer active"></div>
-                <div class="pointer"></div>
-                <div class="pointer"></div>
+                <div class="pointer active" onclick="nextSlide1(this)"></div>
+                <div class="pointer" onclick="nextSlide2(this)"></div>
+                <div class="pointer" onclick="nextSlide3(this)"></div>
             </div>
         </section>
         <!--end of section banner-->
 
-        <section id="about" class="default light">
+        <!--section about us-->
+        <section id="about" class="default light anime">
             <div class="section-title">About Us</div>
             <div class="section-desc">Who we are?</div>
             <div class="section-body">
@@ -97,7 +98,9 @@
                 </div>
             </div>
         </section>
+        <!--end of section about us-->
 
+        <!--section services-->
         <section id="services" class="default dark">
             <div class="section-title">SERVICES</div>
             <div class="section-desc">SERVICES THAT WE PROVIDE</div>
@@ -129,7 +132,9 @@
                 </div>
             </div>
         </section>
+        <!--end of section services-->
 
+        <!--section projects-->
         <section id="projects" class="default light">
             <div class="section-title">Our Projects</div>
             <div class="section-desc">What we create</div>
@@ -271,7 +276,9 @@
                 </div>
             </div>
         </section>
+        <!--end of section projects-->
 
+        <!--section our team-->
         <section id="team" class="default dark bg-team">
             <div class="section-team-area">
                 <div class="section-title">OUR TEAM</div>
@@ -347,7 +354,9 @@
                 </div>
             </div>
         </section>
+        <!--end of section our team-->
 
+        <!--section happy clients-->
         <section id="clients" class="default light point">
             <div class="section-title">Happy Clients</div>
             <div class="section-desc">Client Reviews</div>
@@ -377,7 +386,9 @@
             </div>
 
         </section>
+        <!--end of section happy clients-->
 
+        <!--section companies-->
         <section class="companies">
             <div class="companies-area">
                 <img src="./assets/images/complements/empresa1.png">
@@ -388,7 +399,9 @@
                 <img src="./assets/images/complements/empresa6.png">
             </div>
         </section>
+        <!--end of section companies-->
 
+        <!--section price-->
         <section id="price" class="default light bg-price">
             <div class="section-title">Price</div>
             <div class="section-desc">Pricing Table</div>
@@ -476,7 +489,9 @@
                 </div>
             </div>
         </section>
+        <!--end of section price-->
 
+        <!--section premium-->
         <section class="default light bg-premium point">
             <div class="sliders" style="margin-left: 0;">
                 <div class="slide">
@@ -538,14 +553,213 @@
                 </div>
                 <div class="areaButton">
                     <a href="">GET IN TOUCH!</a>
-                    </div>
+                </div>
             </div>
         </section>
 
+        <!--end of section premium-->
+
+        <!--section somefacts-->
+        <section id="facts" class="default dark">
+            <div class="section-title">SOME FACTS</div>
+            <div class="section-desc">ABOUT OUR WORK</div>
+            <div class="section-body">
+                <div class="section-facts--area">
+                    <div class="area1">
+                        <div class="area1-number">1000</div>
+                        <div class="area1-line"></div>
+                        <div class="area1-title">DESIGN PROJECTS</div>
+                        <div class="area1-title">RELEASED</div>
+                        <div class="area1-desc">Pellentesque eu tellus sit amet nunc scelerisque rhoncus.</div>
+                    </div>
+
+                    <div class="area1">
+                        <div class="area1-number">900</div>
+                        <div class="area1-line"></div>
+                        <div class="area1-title">PHOTOS</div>
+                        <div class="area1-descphotos">Pellentesque eu tellus sit amet nunc scelerisque rhoncus.</div>
+                    </div>
+
+                    <div class="area1">
+                        <div class="area1-number">500</div>
+                        <div class="area1-line"></div>
+                        <div class="area1-title">MARKETING</div>
+                        <div class="area1-title">IDEAS</div>
+                        <div class="area1-desc">Pellentesque eu tellus sit amet nunc scelerisque rhoncus.</div>
+                    </div>
+
+                    <div class="area1">
+                        <div class="area1-number">100</div>
+                        <div class="area1-line"></div>
+                        <div class="area1-title">EXHIBITIONS</div>
+                        <div class="area1-descphotos">Pellentesque eu tellus sit amet nunc scelerisque rhoncus.</div>
+                    </div>
+                </div>
+        </section>
+        <!--end of section some facts-->
+
+        <!--section social-->
+        <section class="section-social">
+            <div class="social-area">
+                <img src="./assets/images/icons/share.png" alt="share" />
+                <div class="social-text"> Tell About Us:</div>
+
+                <div class="areaimg twitter">
+                    <img src="./assets/images/icons/twitter.png" alt="twitter" />
+                </div>
+                <div class="social-text-number">152</div>
+
+                <div class="areaimg linkedin">
+                    <img src="./assets/images/icons/linkedin.png" alt="linkedin" />
+                </div>
+                <div class="social-text-number">31</div>
+
+                <div class="areaimg facebook">
+                    <img src="./assets/images/icons/facebook.png" alt="facebook" />
+                </div>
+                <div class="social-text-number">165</div>
+
+                <div class="areaimg googleplus">
+                    <img src="./assets/images/icons/googleplus.png" alt="googleplus" />
+                </div>
+                <div class="social-text-number">22</div>
+
+                <div class="areaimg pinterest">
+                    <img src="./assets/images/icons/pinterest.png" alt="pinterest" />
+                </div>
+                <div class="social-text-number">165</div>
+            </div>
+        </section>
+        <!--end of section social-->
+
+        <!--section contact us-->
+        <section id="contact" class="default light bg-price">
+            <div class="section-title">CONTACT US</div>
+            <div class="section-desc">OUR AGENCY LOCATED IN MELBOURNE, AUSTRALIA</div>
+            <div class="section-body">
+                <div class="form">
+                    <div class="form-area1">
+                        <input type="text" placeholder="name" />
+                        <input type="text" placeholder="email" />
+                        <div class="form-area1-collumn">
+                            <input type="text" placeholder="subject" />
+                        </div>
+                        <div class="form-message">
+                            <textarea placeholder="message"></textarea>
+                        </div>
+                    </div>
+                    <a href="" class="buttonsend">Send Message</a>
+                </div>
+            </div>
+        </section>
+        <!--end of section contact us-->
+
+        <!--section map-->
+        <section class="section-map">
+            <div class="section-map--area">
+                <div class="section-map--info">
+                    <div class="section-map--info-item">
+                        <div class="section-map--info-item-img">
+                            <img src="./assets/images/icons/carta.png" />
+                        </div>
+                        Algum endereço
+                    </div>
+
+                    <div class="section-map--info-item">
+                        <div class="section-map--info-item-img">
+                            <img src="./assets/images/icons/localizacao.png" />
+                        </div>
+                        Algum endereço
+                    </div>
+
+                    <div class="section-map--info-item">
+                        <div class="section-map--info-item-img">
+                            <img src="./assets/images/icons/telefone.png" />
+                        </div>
+                        Algum endereço
+                    </div>
+
+                    <div class="section-map--info-item">
+                        <div class="section-map--info-item-img">
+                            <img src="./assets/images/icons/arroba.png" />
+                        </div>
+                        Algum endereço
+                    </div>
+
+                    <div class="section-map--info-item">
+                        <div class="section-map--info-item-img">
+                            <img src="./assets/images/icons/web.png" />
+                        </div>
+                        Algum endereço
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--end of section map-->
+
+        <!--footer-->
+        <footer>
+            <div class="section-body">
+                <div class="areageral">
+                    <div class="area-geral-social">
+                        <div class="area-social">
+                            <div class="area-social-img">
+                                <img src="./assets/images/icons/twitter.png" />
+                            </div>
+
+                            <div class="area-social-img">
+                                <img src="./assets/images/icons/linkedin.png" />
+                            </div>
+
+                            <div class="area-social-img">
+                                <img src="./assets/images/icons/facebook.png" />
+                            </div>
+
+                            <div class="area-social-img">
+                                <img src="./assets/images/icons/googleplus.png" />
+                            </div>
+
+                            <div class="area-social-img">
+                                <img src="./assets/images/icons/twitter.png" />
+                            </div>
+
+                            <div class="area-social-img">
+                                <img src="./assets/images/icons/linkedin.png" />
+                            </div>
+
+                            <div class="area-social-img">
+                                <img src="./assets/images/icons/pinterest.png" />
+                            </div>
+                        </div>
+                        AWAX &copy; 2016
+                    </div>
+                    <div class="area-desc">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Cras vitae sollicitudin tortor, sit amet finibus justo. Donec
+                            eros nisl, porta ut mattis eu, rutrum nec nisi. In sit amet lectus
+                            sagittis, blandit purus at, facilisis nulla. Nulla eget tempor neque.
+                            Nam nec tempus nisl, a ultrices mauris. Ut eu dapibus leo. Phasellus odio dui,
+                            lacinia eget ultrices et, tincidunt nec nibh. Proin congue pellentesque tincidunt.
+                            Proin porta nisi nec nisl euismod, quis pharetra dolor sagittis. Pellentesque habitant
+                            morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                        </p>
+                    </div>
+
+                    <div class="area-sendemail">
+                        <div class="area-boxemail">
+                            <input type="text" placeholder="email to subscribe" />
+                            <a href="">Subscribe</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--end footer-->
     </main>
 
-    <footer>
-    </footer>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/js/index.js"></script>
 </body>
 
 </html>
